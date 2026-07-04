@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Implementation Notes</title>
+  </head>
+  <body>
+    <main>
+      <h1>Implementation Notes</h1>
+      <section>
+        <h2>Google Search Console verification</h2>
+        <p>
+          Added the Google verification token through Next.js root metadata via
+          <code>metadata.verification.google</code>. This keeps the verification
+          tag app-wide and server-rendered without adding custom head markup or
+          client-side behavior.
+        </p>
+        <p>
+          No product behavior changes were made. This only affects emitted page
+          metadata for site ownership verification.
+        </p>
+      </section>
+      <section>
+        <h2>Deployment baseline</h2>
+        <p>
+          Current <code>origin/main</code> had already upgraded the app to
+          Next.js 16 and switched the repository to <code>package-lock.json</code>
+          before this source change was persisted. The final source change keeps
+          that baseline intact and only adds the verification metadata and living
+          project notes.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

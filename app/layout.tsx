@@ -36,6 +36,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  verification: {
+    google: 'L9PSq0KJ9d_PIqiDGp2xIC-K3gJ7Iy9EVYU2CLhZtWc',
+  },
   alternates: {
     canonical: 'https://pdftomarkdown.co/',
   },

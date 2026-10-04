@@ -2,6 +2,14 @@
 
 Convert PDF files to Markdown instantly, securely, and 100% in your browser. No uploads, no privacy worries—just fast, accurate conversion.
 
+## Windows: install once, launch with a double-click
+
+1. [Download this repository as a ZIP](https://github.com/dothanhdat1413/pdf2md/archive/refs/heads/main.zip) and extract it to a writable folder.
+2. Double-click **setup.bat**. It prepares Node.js when needed, installs dependencies, and builds the application. Internet access is required for setup.
+3. Double-click **Mo_chay.bat** to start the web application and open it in your browser. Keep its console open while using the app; press **Ctrl+C** to stop it.
+
+No Git installation or administrator account is needed. See [the Windows guide in Vietnamese](HUONG_DAN_WINDOWS.md) for details and troubleshooting.
+
 ![PDF to Markdown Converter](public/og.png)
 
 ---
